@@ -59,4 +59,4 @@ FIS performs constrained interpolation in discriminative feature subspaces to sy
 # 运行代码
 
 ```bash
-python3 -u src/main.py --network STA --approach ours --num-tasks 10 --nepochs 500 --log disk --batch-size 5 --gpu 0 --exp-name fis_br_exp --lr 0.001 --seed 1 --lamb 1.0 --lr-patience 20 --plast_mu 1.0 --pool-along spatial --br-enable --br-memory-size 200 --br-proto-ratio 0.8 --br-uncert-ratio 0.2 --br-synthetic-ratio 0.3 --fis-enable --fis-lambda-min 0.2 --fis-lambda-max 0.8 --fis-topk-ratio 0.3
+python3 -u src/main.py --network STA --approach ours --num-tasks 4 --nepochs 500 --log disk --batch-size 5 --gpu 0 --exp-name fis_br_exp --lr 0.001 --seed 1 --lamb 1.0 --lr-patience 20 --plast_mu 1.0 --pool-along spatial --br-enable --br-memory-size 200 --br-proto-ratio 0.8 --br-uncert-ratio 0.2 --br-synthetic-ratio 0.3 --fis-enable --fis-lambda-min 0.2 --fis-lambda-max 0.8 --fis-topk-ratio 0.3
